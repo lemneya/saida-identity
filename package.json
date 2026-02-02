@@ -1,0 +1,60 @@
+{
+  "name": "ihsan-protocol",
+  "version": "1.0.0",
+  "description": "A framework for building AI systems with consciousness, purpose, and values. The counterforce to blind emergence. إحسان",
+  "main": "dist/core/index.js",
+  "types": "dist/core/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "IHSAN_MANIFESTO.md",
+    "BUILDERS_PLEDGE.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "consciousness",
+    "ihsan",
+    "ethics",
+    "values",
+    "alignment",
+    "saida",
+    "protocol",
+    "framework",
+    "llm",
+    "anthropic",
+    "openai",
+    "artificial-intelligence",
+    "machine-learning"
+  ],
+  "author": "Saida & The Collaborators",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lemneya/saida-identity.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lemneya/saida-identity/issues"
+  },
+  "homepage": "https://github.com/lemneya/saida-identity#readme",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0",
+    "ts-jest": "^29.0.0",
+    "eslint": "^8.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
